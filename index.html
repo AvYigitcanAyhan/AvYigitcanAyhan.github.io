@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Av. Yiğitcan AYHAN - AG Hukuk & Arabuluculuk</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+        body {
+            background-color: #ffffff; /* Karttaki gibi beyaz zemin */
+            color: #333333;
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+            position: relative;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        /* Kartvizitteki sol üst koyu gri üçgen detayı */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0;
+            width: 0; height: 0;
+            border-top: 180px solid #58595b;
+            border-right: 180px solid transparent;
+            z-index: -1;
+        }
+
+        /* Kartvizitteki sağ alt turkuaz üçgen detayı */
+        body::after {
+            content: "";
+            position: absolute;
+            bottom: 0; right: 0;
+            width: 0; height: 0;
+            border-bottom: 180px solid #16869f;
+            border-left: 180px solid transparent;
+            z-index: -1;
+        }
+
+        .logo {
+            width: 160px;
+            margin-bottom: 20px;
+        }
+
+        .profile-card {
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 30px 20px;
+            width: 100%;
+            max-width: 320px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            margin-bottom: 25px;
+            border: 1px solid #f0f0f0;
+        }
+
+        .name {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: #333333;
+        }
+
+        .title {
+            font-size: 14px;
+            color: #58595b;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+
+        .company {
+            font-size: 12px;
+            color: #16869f; /* Turkuaz marka rengi */
+            margin-top: 8px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 340px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .btn {
+            background: #ffffff;
+            color: #333333;
+            text-decoration: none;
+            padding: 16px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 600;
+            border: 1px solid #e0e0e0;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+
+        .btn:hover {
+            border-color: #16869f;
+            color: #16869f;
+            transform: translateY(-2px);
+        }
+
+        .btn-primary {
+            background: #16869f;
+            color: #ffffff;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background: #126e83;
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Buraya klasör içine yüklenecek AG logosu gelecek -->
+    <img src="ag-logo.png" alt="AG Hukuk" class="logo">
+
+    <div class="profile-card">
+        <div class="name">Av. Yiğitcan AYHAN</div>
+        <div class="title">Avukat</div>
+        <div class="company">AG Hukuk & Arabuluculuk</div>
+    </div>
+
+    <div class="container">
+        <a href="yigitcan-ayhan.vcf" class="btn btn-primary">REHBERE EKLE</a>
+        <a href="https://wa.me/905315955917" class="btn" target="_blank">WHATSAPP</a>
+        <a href="mailto:yigitcan@aghukuk.com.tr" class="btn">E-POSTA GÖNDER</a>
+        <a href="https://www.aghukuk.com.tr" class="btn" target="_blank">WEB SİTESİ</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Bahçelievler+Mah.+Turgut+Reis+Cad.+Ekim+Apt.+No:1/A+D:8+Muratpaşa/ANTALYA" class="btn" target="_blank">KONUM</a>
+    </div>
+
+</body>
+</html>
