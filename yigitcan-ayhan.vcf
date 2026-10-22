@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ayhan;Yiğitcan;;Av.;
+FN:Av. Yiğitcan AYHAN
+TITLE:Avukat
+ORG:AG Hukuk & Arabuluculuk
+TEL;TYPE=CELL,VOICE:+905315955917
+EMAIL;TYPE=WORK,INTERNET:yigitcan@aghukuk.com.tr
+URL:https://www.aghukuk.com.tr
+ADR;TYPE=WORK:;;Bahçelievler Mah. Turgut Reis Cad. Ekim Apt. No:1/A D:8;Muratpaşa;Antalya;;Türkiye
+END:VCARD
